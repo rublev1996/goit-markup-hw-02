@@ -4,6 +4,8 @@
     /*hdr*/
     --h-link-default:#212121;
     --h-link-hover-active:#2196F3;
+    --logo-first-verb-color:#2196F3;
+    --logo-second-verb-color: #212121;
     /*ftr*/
 
     /*cnts*/
@@ -24,6 +26,30 @@
 }
 
 /*HEARER*/
+
+.logo-first-verb{
+    font-family: Raleway;
+	font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--logo-first-verb-color);
+}
+
+.logo-second-verb{
+    font-family: Raleway;
+	font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--logo-second-verb-color);
+}
 
 .hdr-link:active{
     font-family: Roboto;
@@ -112,7 +138,7 @@
 /* PORTFOLIO PAGE */
 
 .portfolio-body-container{
-    font-family: Roboto;
+    font-family: sans-serif;
 }
 
 .portfolio-filter-button:active {
@@ -131,7 +157,6 @@
     background-color: var(--p-button-hover-active-color);
     /*text*/
     color: var(--p-hover-active-button-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -157,7 +182,6 @@
     cursor:pointer;
     /*text*/
     color: var(--p-default-button-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -165,7 +189,6 @@
 }
 
 .desription{
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -179,6 +202,7 @@
 
 .index-body-container {
     font-family: Roboto;
+    font-family: sans-serif;
 }
 
 .order-button {
@@ -191,7 +215,6 @@
     cursor: pointer;
     /*text*/
     color: var(--i-default-button-text-color);
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -200,7 +223,6 @@
 }
 
 .advantage-name {
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -211,7 +233,6 @@
 }
 
 .desription {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
