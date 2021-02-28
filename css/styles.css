@@ -16,10 +16,11 @@
         /*---*/
         --p-button-hover-active-color: #2196F3;
         --p-button-hover-default-color:#F5F4FA;
-        --advantage-text: #212121;
     /*index*/
     --i-button-default-color:#2196F3;
     --i-default-button-text-color:#FFFFFF;
+    --advantage-text: #212121;
+    --description-text:#757575;
 }
 
 /*HEARER*/
@@ -207,4 +208,13 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--advantage-text);
+}
+
+.desription {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--description-text);
 }
