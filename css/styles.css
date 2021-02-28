@@ -42,7 +42,6 @@
 .logo-second-verb{
     font-family: Raleway;
 	font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
@@ -53,7 +52,6 @@
 
 .hdr-link:active{
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -63,7 +61,6 @@
 }
 .hdr-link:hover{
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.4;
@@ -74,7 +71,6 @@
 
 .hdr-link:focus{
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.4;
@@ -85,7 +81,6 @@
 
 .hdr-link{
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -96,7 +91,6 @@
 }
 .contact:active{
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -105,7 +99,6 @@
 }
 .contact:hover{
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -115,7 +108,6 @@
 
 .contact:focus{
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -125,7 +117,6 @@
 
 .contact{
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -139,6 +130,7 @@
 
 .portfolio-body-container{
     font-family: sans-serif;
+    font-family: Roboto;
 }
 
 .portfolio-filter-button:active {
@@ -148,6 +140,7 @@
     top: 174px;
     background-color: var(--p-button-hover-active-color);
     cursor: pointer;
+    font-family: inherit;
 }
 .portfolio-filter-button:hover{
     width: 128px;
@@ -157,11 +150,11 @@
     background-color: var(--p-button-hover-active-color);
     /*text*/
     color: var(--p-hover-active-button-text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     cursor: pointer;
+    font-family: inherit;
 }
 .portfolio-filter-button:focus{
     width: 128px;
@@ -170,9 +163,10 @@
     top: 174px;
     background-color: var(--p-button-hover-active-color);
     cursor: pointer;
+    font-family: inherit;
 }
 
-.portfolio-filter-button { 
+.portfolio-filter-button{ 
     width: 128px;
     height: 38px;
     left: 576px;
@@ -182,18 +176,17 @@
     cursor:pointer;
     /*text*/
     color: var(--p-default-button-text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    font-family: inherit;
 }
 
-.desription{
-    font-style: normal;
-    font-weight: normal;
+.desription.portfolio-body-container{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
+    font-family: inherit;
 }
 
 /*INDEX PAGE*/
@@ -201,8 +194,8 @@
 
 
 .index-body-container {
-    font-family: Roboto;
     font-family: sans-serif;
+    font-family: Roboto;
 }
 
 .order-button {
@@ -215,16 +208,13 @@
     cursor: pointer;
     /*text*/
     color: var(--i-default-button-text-color);
-    font-style: normal;
-    font-weight: bold;
     font-size: 16px;
     line-height: 1.9;
     text-decoration: none;
 }
 
-.advantage-name {
-    font-style: normal;
-    font-weight: bold;
+.advantage-name.index-body-container {
+    font-family: inherit;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
@@ -232,9 +222,8 @@
     color: var(--advantage-text);
 }
 
-.desription {
-    font-style: normal;
-    font-weight: normal;
+.desription.index-body-container {
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.8;
     color: var(--description-text);
