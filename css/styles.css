@@ -204,12 +204,13 @@
     line-height: 1.9;
     letter-spacing: 0.03em;
     font-family: inherit;
+    color: var(--description-text);
 }
 
 /*INDEX PAGE*/
 
 .position {
-    
+
 }
 
 
