@@ -6,7 +6,10 @@
     --h-link-hover-active:#2196F3;
     --logo-first-verb-color:#2196F3;
     --logo-second-verb-color: #212121;
+    --white-text-background:#2F303A;
     /*ftr*/
+
+    --addr-text-color: #FFFFFF;
 
     /*cnts*/
     --contact-hover-default:#757575;
@@ -96,6 +99,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--contact-hover-active)
+    text-decoration: none;
 }
 .contact:hover{
     font-family: Roboto;
@@ -104,6 +108,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--contact-hover-active);
+    text-decoration: none;
 }  
 
 .contact:focus{
@@ -113,6 +118,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--contact-hover-active);
+    text-decoration: none;
 }
 
 .contact{
@@ -124,8 +130,19 @@
     color: var(--contact-hover-default);
     text-decoration: none;
     color:var(--contact-hover-default);
+    text-decoration: none;
+    font-style: normal;
 }
 
+.addr {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    color: var(--addr-text-color);
+    background-color: var(--white-text-background);
+}
 /* PORTFOLIO PAGE */
 
 .portfolio-body-container{
@@ -191,6 +208,9 @@
 
 /*INDEX PAGE*/
 
+.position {
+    
+}
 
 
 .index-body-container {
@@ -199,7 +219,6 @@
 }
 
 .order-button {
-    position: absolute;
     width: 200px;
     height: 50px;
     left: 700px;
