@@ -158,6 +158,7 @@
     background-color: var(--p-button-hover-active-color);
     cursor: pointer;
     font-family: inherit;
+    color: var(--p-hover-active-button-text-color);
 }
 .portfolio-filter-button:hover{
     width: 128px;
@@ -181,6 +182,8 @@
     background-color: var(--p-button-hover-active-color);
     cursor: pointer;
     font-family: inherit;
+    color: var(--p-hover-active-button-text-color);
+
 }
 
 .portfolio-filter-button{ 
