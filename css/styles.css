@@ -30,6 +30,14 @@
 
 /*HEARER*/
 
+.nvg-list {
+    list-style-type: none;
+}
+
+.contacts-list {
+    list-style-type: none;
+} /*+FOOTER*/
+
 .logo-first-verb{
     font-family: Raleway;
 	font-family: Raleway;
@@ -145,6 +153,14 @@
 }
 /* PORTFOLIO PAGE */
 
+.btn-list{
+    list-style-type: none;
+}
+
+.portfolio-list{
+    list-style-type: none;
+}
+
 .portfolio-body-container{
     font-family: sans-serif;
     font-family: Roboto;
@@ -212,11 +228,6 @@
 
 /*INDEX PAGE*/
 
-.position {
-
-}
-
-
 .index-body-container {
     font-family: sans-serif;
     font-family: Roboto;
@@ -250,4 +261,17 @@
     font-size: 16px;
     line-height: 1.8;
     color: var(--description-text);
+}
+
+.advantages-list{
+    list-style-type: none;
+}
+
+.exx-list {
+    list-style-type: none;
+}
+
+
+.staff-list{
+    list-style-type: none;
 }
