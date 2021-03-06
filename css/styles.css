@@ -1,12 +1,14 @@
 /*MAIM-STYLE STYLE RULES*/
 
 :root{
+    /*main*/
+    --main-black-background-text-color:#FFFFFF;
+    --white-text-background:#2F303A;
     /*hdr*/
     --h-link-default:#212121;
     --h-link-hover-active:#2196F3;
     --logo-first-verb-color:#2196F3;
     --logo-second-verb-color: #212121;
-    --white-text-background:#2F303A;
     /*ftr*/
 
     --addr-text-color: #FFFFFF;
@@ -23,7 +25,6 @@
         --p-button-hover-default-color:#F5F4FA;
     /*index*/
     --i-button-default-color:#2196F3;
-    --i-default-button-text-color:#FFFFFF;
     --advantage-text: #212121;
     --description-text:#757575;
 }
@@ -153,6 +154,13 @@
 }
 /* PORTFOLIO PAGE */
 
+.case-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+}
 
 .portfolio-list{
     list-style-type: none;
@@ -230,6 +238,19 @@
     font-family: Roboto;
 }
 
+.index-main-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-black-background-text-color);
+    background-color: var(--white-text-background);
+}
+
 .order-button {
     width: 200px;
     height: 50px;
@@ -238,7 +259,7 @@
     background:var(--i-button-default-color);
     cursor: pointer;
     /*text*/
-    color: var(--i-default-button-text-color);
+    color: var(--main-black-background-text-color);
     font-size: 16px;
     line-height: 1.9;
     text-decoration: none;
