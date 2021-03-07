@@ -27,6 +27,7 @@
     --i-button-default-color:#2196F3;
     --advantage-text: #212121;
     --description-text:#757575;
+    --h3-text:#212121;
 }
 
 /*HEARER*/
@@ -62,26 +63,9 @@
     color: var(--logo-second-verb-color);
 }
 
-.hdr-link:active{
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--h-link-hover-active);
-    text-decoration: none;
-}
+.hdr-link:active,
+.hdr-link:focus,
 .hdr-link:hover{
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.4;
-    letter-spacing: 0.02em;
-    color: var(--h-link-hover-active);
-    text-decoration: none;
-}
-
-.hdr-link:focus{
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
@@ -101,15 +85,9 @@
     color: var(--h-link-default);
     text-decoration: none;
 }
-.contact:active{
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--contact-hover-active);
-    text-decoration: none;
-}
+
+.contact:active,
+.contact:focus,
 .contact:hover{
     font-family: Roboto;
     font-weight: 500;
@@ -119,16 +97,6 @@
     color:var(--contact-hover-active);
     text-decoration: none;
 }  
-
-.contact:focus{
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--contact-hover-active);
-    text-decoration: none;
-}
 
 .contact{
     font-family: Roboto;
@@ -154,14 +122,6 @@
 }
 /* PORTFOLIO PAGE */
 
-.case-name{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-}
-
 .list{
     list-style-type: none;
 }
@@ -171,47 +131,17 @@
     font-family: Roboto;
 }
 
-.portfolio-filter-button:active {
-    width: 128px;
-    height: 38px;
-    left: 576px;
-    top: 174px;
+.portfolio-filter-button:active,
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus
+ {
     background-color: var(--p-button-hover-active-color);
     cursor: pointer;
     font-family: inherit;
     color: var(--p-hover-active-button-text-color);
-}
-.portfolio-filter-button:hover{
-    width: 128px;
-    height: 38px;
-    left: 576px;
-    top: 174px;
-    background-color: var(--p-button-hover-active-color);
-    /*text*/
-    color: var(--p-hover-active-button-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    cursor: pointer;
-    font-family: inherit;
-}
-.portfolio-filter-button:focus{
-    width: 128px;
-    height: 38px;
-    left: 576px;
-    top: 174px;
-    background-color: var(--p-button-hover-active-color);
-    cursor: pointer;
-    font-family: inherit;
-    color: var(--p-hover-active-button-text-color);
-
-}
+ }
 
 .portfolio-filter-button{ 
-    width: 128px;
-    height: 38px;
-    left: 576px;
-    top: 174px;
     background: var(--p-button-hover-default-color);
     border-radius: 4px;
     cursor:pointer;
@@ -223,7 +153,15 @@
     font-family: inherit;
 }
 
-.desription.portfolio-body-container{
+.portfolio-body-container.case-name{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.portfolio-body-container.desription{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
@@ -265,7 +203,7 @@
     text-decoration: none;
 }
 
-.advantage-name.index-body-container {
+.index-body-container .advantage-name {
     font-family: inherit;
     font-size: 14px;
     line-height: 1.4;
@@ -274,7 +212,7 @@
     color: var(--advantage-text);
 }
 
-.desription.index-body-container {
+.index-body-container .desription {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.8;
@@ -289,7 +227,48 @@
     list-style-type: none;
 }
 
+.index-body-container .staff{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--h3-text);
+    
+}
 
 .staff-list{
     list-style-type: none;
+}
+
+.staff-name {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--h-link-default);
+
+}
+
+.position {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--description-text);
+}
+
+.desription {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;    
+    color: var(--description-text);
 }
